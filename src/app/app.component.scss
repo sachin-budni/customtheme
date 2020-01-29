@@ -1,0 +1,14 @@
+// @import './../theme/theme.scss';
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .custom-color{
+    background-color: var(--background-color-bk);
+    color: var(--text-color);
+    font-size: var(--font-size-text);
+}
