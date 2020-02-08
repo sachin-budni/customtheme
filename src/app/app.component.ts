@@ -9,7 +9,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 export class AppComponent {
   title = 'customtheme';
   themeName:string = "dark";
-  @ViewChild("themechange",{static:false}) themeChange:ElementRef;
+  @ViewChild("themechange") themeChange:ElementRef;
   constructor(){
 
   }
